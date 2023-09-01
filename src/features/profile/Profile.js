@@ -2,7 +2,7 @@ const logo = require("./puzzle.png");
 
 function Profile() {
 	return (
-		<div className="items-center justify-center flex flex-col sm:flex-row ">
+		<div className="items-center justify-center flex flex-col sm:flex-row h-[45rem]">
 			<div className="w-1/2">
 				<img
 					className="sm:w-4/5 sm:h-4/5 sm:p-32 sm:pr-0 sm:mx-2"

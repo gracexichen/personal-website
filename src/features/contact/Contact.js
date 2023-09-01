@@ -1,25 +1,25 @@
 function Contact() {
 	return (
-		<div class="bg-turquoise">
-			<ul class="basis-1/5 flex flex-row">
-				<li class="m-3">Contact</li>
-				<li class="m-3">
-					<a class="text-darkblue hover:text-lightblue" href="#">
+		<div className="bg-white">
+			<ul className="basis-1/5 flex flex-row">
+				<li className="m-3">Contact:</li>
+				<li className="m-3">
+					<a className="text-purple hover:text-pink" href="#">
 						Email
 					</a>
 				</li>
-				<li class="m-3">
-					<a class="text-darkblue hover:text-lightblue" href="#">
+				<li className="m-3">
+					<a className="text-purple hover:text-pink" href="#">
 						Discord
 					</a>
 				</li>
-				<li class="m-3">
-					<a class="text-darkblue hover:text-lightblue" href="#">
+				<li className="m-3">
+					<a className="text-purple hover:text-pink" href="#">
 						LinkedIn
 					</a>
 				</li>
 				<li class="m-3">
-					<a class="text-darkblue hover:text-lightblue" href="#">
+					<a className="text-purple hover:text-pink" href="#">
 						Resume
 					</a>
 				</li>
