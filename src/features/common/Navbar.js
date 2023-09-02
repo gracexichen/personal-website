@@ -4,7 +4,7 @@ function Navbar() {
 		<div className="flex bg-white sticky top-0 z-50 justify-content items-center fixed">
 			<ul className="flex flex-row basis-4/5 m-2 ml-4">
 				<li>
-					<a className="text-pink font-satisfy text-4xl">Grace Chen</a>
+					<a className="text-pink font-satisfy text-2xl sm:text-4xl">Grace Chen</a>
 				</li>
 			</ul>
 			<ul className="basis-1/5 flex flex-row">

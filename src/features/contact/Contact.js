@@ -7,9 +7,9 @@ function Contact() {
 		<>
 			<div
 				id="contact"
-				className="flex items-center justify-center flex-row w-full h-[45rem]"
+				className="flex items-center justify-center flex-col sm:flex-row w-full h-[45rem]"
 			>
-				<div id="info" className="w-1/2 px-16">
+				<div id="info" className="sm:w-1/2 px-16">
 					<h3 className="font-satisfy text-6xl">Connect With Me</h3>
 					<p className="text-2xl">
 						Let me know if you have any exciting ideas I can help bring to life!
