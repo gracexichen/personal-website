@@ -3,11 +3,11 @@ function Navbar() {
 	return (
 		<div className="flex bg-white sticky top-0 z-50 justify-content items-center fixed">
 			<div className="flex flex-row basis-4/5 m-2 ml-4">
-				<p className="text-pink font-satisfy text-2xl sm:mt-0 sm:text-4xl">
+				<p className="text-pink font-satisfy text-2xl sm:text-4xl">
 					Grace Chen
 				</p>
 			</div>
-			<ul className="basis-1/5 align-middle flex flex-row space-x-5">
+			<ul className="basis-1/5 flex flex-row">
 				<li className="mt-4 sm:m-4">
 					<Link
 						to="profile"
@@ -28,7 +28,7 @@ function Navbar() {
 						smooth={true}
 						offset={-50}
 						duration={500}
-						className="text-darkblue hover:text-lightblue"
+						className="pl-4 sm:pl-0 text-darkblue hover:text-lightblue"
 						href="#projects"
 					>
 						Projects
@@ -41,7 +41,7 @@ function Navbar() {
 						smooth={true}
 						offset={-50}
 						duration={500}
-						className="text-darkblue hover:text-lightblue"
+						className="pl-4 sm:pl-0 text-darkblue hover:text-lightblue"
 						href="#about"
 					>
 						About
@@ -54,7 +54,7 @@ function Navbar() {
 						smooth={true}
 						offset={-50}
 						duration={500}
-						className="text-darkblue hover:text-lightblue"
+						className="pl-4 sm:pl-0 text-darkblue pr-2 sm:pr-0 hover:text-lightblue"
 						href="#contact"
 					>
 						Contact
