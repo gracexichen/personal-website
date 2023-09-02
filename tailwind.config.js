@@ -5,6 +5,7 @@ module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
 		colors: {
+			// theme colors
 			pink: "#f68fff",
 			purple: "#d863ff",
 			turquoise: "#89ffe8",
@@ -12,11 +13,12 @@ module.exports = {
 			lightblue: "#3dd2ff",
 			black: colors.black,
 			white: colors.white,
-            fairytale: "#eac4d5",
-            lightred: "#FF6E6E",
-            tiffanyblue: "#3DEEB0",
-            powderblue: "#95b8d1",
-            vistablue: "#809bce",
+			// extra colors
+			fairytale: "#eac4d5",
+			lightred: "#FF6E6E",
+			tiffanyblue: "#3DEEB0",
+			powderblue: "#95b8d1",
+			vistablue: "#809bce",
 		},
 		extend: {
 			fontFamily: {

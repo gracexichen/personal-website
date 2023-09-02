@@ -24,7 +24,10 @@ function Projects() {
 	const curProject = projectsList[projectNum];
 	const projectImage = images(`${curProject.image}`);
 	return (
-		<div className="flex flex-row bg-lightblue h-[45rem] space-x-10 p-10">
+		<div
+			id="projects"
+			className="flex flex-row bg-lightblue h-[45rem] space-x-10 p-10"
+		>
 			<div className="flex flex-col w-1/2">
 				<div className="flex flex-row">
 					{projectsList.map((e) => {
