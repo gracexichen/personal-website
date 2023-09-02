@@ -2,13 +2,13 @@ import { Link } from "react-scroll";
 function Navbar() {
 	return (
 		<div className="flex bg-white sticky top-0 z-50 justify-content items-center fixed">
-			<ul className="flex flex-row basis-4/5 m-2 ml-4">
-				<li>
-					<a className="text-pink font-satisfy text-2xl sm:text-4xl">Grace Chen</a>
-				</li>
-			</ul>
-			<ul className="basis-1/5 flex flex-row">
-				<li className="m-4">
+			<div className="flex flex-row basis-4/5 m-2 ml-4">
+				<p className="text-pink font-satisfy text-2xl sm:mt-0 sm:text-4xl">
+					Grace Chen
+				</p>
+			</div>
+			<ul className="basis-1/5 align-middle flex flex-row space-x-5">
+				<li className="mt-4 sm:m-4">
 					<Link
 						to="profile"
 						spy={true}
@@ -21,7 +21,7 @@ function Navbar() {
 						Home
 					</Link>
 				</li>
-				<li className="m-4">
+				<li className="mt-4 sm:m-4">
 					<Link
 						to="projects"
 						spy={true}
@@ -34,7 +34,7 @@ function Navbar() {
 						Projects
 					</Link>
 				</li>
-				<li className="m-4">
+				<li className="mt-4 sm:m-4">
 					<Link
 						to="about"
 						spy={true}
@@ -47,7 +47,7 @@ function Navbar() {
 						About
 					</Link>
 				</li>
-				<li className="m-4">
+				<li className="mt-4 sm:m-4">
 					<Link
 						to="contact"
 						spy={true}
