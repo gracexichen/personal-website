@@ -13,7 +13,7 @@ function Profile() {
 					alt="Logo"
 				/>
 			</div>
-			<div className="text-center justify-center sm:w-1/2 sm:text-left h-min p-8 pl-0">
+			<div className="text-center justify-center sm:w-1/2 sm:text-left h-min p-8 sm:pl-0">
 				<h3 className="font-satisfy text-6xl">Welcome!</h3>
 				<p className="text-2xl">
 					I'm Grace, a sophomore studying Computer Science at the University of
